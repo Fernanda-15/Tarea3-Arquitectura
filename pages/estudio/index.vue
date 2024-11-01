@@ -1,6 +1,6 @@
 <!-- pages/books.vue -->
 <template>
-    <div hidden id="snipcart" data-api-key="import.meta.env.VITE_SNIPCART_API_KEY"></div>
+    <div hidden id="snipcart" data-api-key="import.meta.env.NUXT_SNIPCART_API_KEY"></div>
 
     <div class="container">
         <HeaderView />
