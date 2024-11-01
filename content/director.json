@@ -9,7 +9,8 @@
             1,
             14,
             15
-        ]
+        ],
+        "price": 30.00
     },
     {
         "id": 2,
@@ -20,7 +21,8 @@
         "peliculas": [
             2,
             3
-        ]
+        ],
+        "price": 25.00
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXItCzVseZ4FDTq_kGqfInxcZYpyB-lzHOvKIi8VyK7HnxgiNl",
         "peliculas": [
             9
-        ]
+        ],
+        "price": 28.00
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
         "peliculas": [
             4,
             6
-        ]
+        ],
+        "price": 31.00
     },
     {
         "id": 5,
@@ -51,7 +55,8 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQljZ4F9exgD5n4Wr9IK1hDNdzUjePrQTVi4uV5tSaojpViDGR2",
         "peliculas": [
             5
-        ]
+        ],
+        "price": 35.00
     },
     {
         "id": 6,
@@ -61,7 +66,8 @@
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTqLyFfDGEwLPN99k5VF3oO2h0HTy9dPkpwley26-IJbtQpTRzR",
         "peliculas": [
             7
-        ]
+        ],
+        "price": 33.00
     },
     {
         "id": 7,
@@ -72,7 +78,8 @@
         "peliculas": [
             8,
             13
-        ]
+        ],
+        "price": 30.00
     },
     {
         "id": 8,
@@ -84,6 +91,7 @@
             10,
             11,
             12
-        ]
+        ],
+        "price": 29.00
     }
 ]

@@ -12,7 +12,8 @@
             6,
             14,
             15
-        ]
+        ],
+        "price": 20.00
     },
     {
         "id": 2,
@@ -23,7 +24,8 @@
         "peliculas": [
             3,
             5
-        ]
+        ],
+        "price": 23.00
     },
     {
         "id": 3,
@@ -33,7 +35,8 @@
         "image": "https://cdn.disneyanimation.com/uploads/walt-disney-animation-studios/home.jpg",
         "peliculas": [
             7
-        ]
+        ],
+        "price": 18.00
     },
     {
         "id": 4,
@@ -54,7 +57,8 @@
         "peliculas": [
             9,
             13
-        ]
+        ],
+        "price": 21.00
     },
     {
         "id": 6,
@@ -66,6 +70,7 @@
             10,
             11,
             12
-        ]
+        ],
+        "price": 19.00
     }
 ]

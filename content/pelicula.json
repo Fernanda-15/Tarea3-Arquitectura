@@ -7,7 +7,8 @@
         "estudio": 1,
         "director": 1,
         "duracion": "1h 21m",
-        "img": "https://es.web.img3.acsta.net/pictures/14/03/17/10/20/509771.jpg"
+        "img": "https://es.web.img3.acsta.net/pictures/14/03/17/10/20/509771.jpg",
+        "price": 15.99
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "estudio": 1,
         "director": 2,
         "duracion": "1h 40m",
-        "img": "https://es.web.img3.acsta.net/pictures/14/02/13/11/08/054573.jpg"
+        "img": "https://es.web.img3.acsta.net/pictures/14/02/13/11/08/054573.jpg",
+        "price": 19.99
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "estudio": 2,
         "director": 2,
         "duracion": "1h 30m",
-        "img": "https://pics.filmaffinity.com/Shrek-903764423-large.jpg"
+        "img": "https://m.media-amazon.com/images/S/pv-target-images/030f9ae65cadc9afc0e3c51ed35d2ddeb814f213d7a87fc5aa4445738ebb32b9.jpg",
+        "price": 21.00
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "estudio": 1,
         "director": 4,
         "duracion": "1h 55m",
-        "img": "https://trestristescriticos.com/wp-content/uploads/2018/07/los-increibles-2.jpg"
+        "img": "https://trestristescriticos.com/wp-content/uploads/2018/07/los-increibles-2.jpg",
+        "price": 17.99
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@
         "estudio": 2,
         "director": 5,
         "duracion": "1h 32m",
-        "img": "https://m.media-amazon.com/images/S/pv-target-images/cb0c3a998c4e5a5454efbda8cb13c21ecb98a9de697b2d980fd33dbeecfc9ab9.jpg"
+        "img": "https://m.media-amazon.com/images/S/pv-target-images/cb0c3a998c4e5a5454efbda8cb13c21ecb98a9de697b2d980fd33dbeecfc9ab9.jpg",
+        "price": 10.00
     },
     {
         "id": 6,
@@ -57,7 +62,8 @@
         "estudio": 1,
         "director": 4,
         "duracion": "1h 45m",
-        "img": "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0%2C0%2C540%2C810"
+        "img": "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0%2C0%2C540%2C810",
+        "price": 19.99
     },
     {
         "id": 7,
@@ -67,7 +73,8 @@
         "estudio": 3,
         "director": 6,
         "duracion": "1h 28m",
-        "img": "https://es.web.img3.acsta.net/medias/nmedia/18/68/20/31/19785394.jpg?coixp=47&coiyp=41"
+        "img": "https://es.web.img3.acsta.net/medias/nmedia/18/68/20/31/19785394.jpg?coixp=47&coiyp=41",
+        "price": 13.99
     },
     {
         "id": 8,
@@ -77,7 +84,8 @@
         "estudio": 4,
         "director": 7,
         "duracion": "1h 35m",
-        "img": "https://mx.web.img3.acsta.net/pictures/18/11/29/00/31/4685554.jpg"
+        "img": "https://mx.web.img3.acsta.net/pictures/18/11/29/00/31/4685554.jpg",
+        "price": 11.00
     },
     {
         "id": 9,
@@ -87,7 +95,8 @@
         "estudio": 5,
         "director": 3,
         "duracion": "1h 31m",
-        "img": "https://es.web.img3.acsta.net/medias/nmedia/18/90/47/93/20254074.jpg"
+        "img": "https://es.web.img3.acsta.net/medias/nmedia/18/90/47/93/20254074.jpg",
+        "price": 15.99
     },
     {
         "id": 10,
@@ -97,7 +106,8 @@
         "estudio": 6,
         "director": 8,
         "duracion": "1h 21m",
-        "img": "https://image.tmdb.org/t/p/original/j52ufQ4Y5QIESpCdgSN3MVNvZOK.jpg"
+        "img": "https://image.tmdb.org/t/p/original/j52ufQ4Y5QIESpCdgSN3MVNvZOK.jpg",
+        "price": 18.99
     },
     {
         "id": 11,
@@ -107,7 +117,8 @@
         "estudio": 6,
         "director": 8,
         "duracion": "1h 31m",
-        "img": "https://m.media-amazon.com/images/M/MV5BNDYyNjY1NjY1M15BMl5BanBnXkFtZTcwNjk5MDczMw@@._V1_.jpg"
+        "img": "https://m.media-amazon.com/images/M/MV5BNDYyNjY1NjY1M15BMl5BanBnXkFtZTcwNjk5MDczMw@@._V1_.jpg",
+        "price": 19.99
     },
     {
         "id": 12,
@@ -117,7 +128,8 @@
         "estudio": 6,
         "director": 8,
         "duracion": "1h 42m",
-        "img": "https://play-lh.googleusercontent.com/_lv3A1eCIVCtjtS9kaKx1c__Ghpn6btycYlb8t3UoxPVUzragNdKfvogKpF4vcYg7Zk"
+        "img": "https://play-lh.googleusercontent.com/_lv3A1eCIVCtjtS9kaKx1c__Ghpn6btycYlb8t3UoxPVUzragNdKfvogKpF4vcYg7Zk",
+        "price": 14.00
     },
     {
         "id": 13,
@@ -127,7 +139,8 @@
         "estudio": 5,
         "director": 7,
         "duracion": "1h 26m",
-        "img": "https://es.web.img3.acsta.net/pictures/17/05/18/10/03/496974.jpg"
+        "img": "https://es.web.img3.acsta.net/pictures/17/05/18/10/03/496974.jpg",
+        "price": 14.00
     },
     {
         "id": 14,
@@ -137,7 +150,8 @@
         "estudio": 1,
         "director": 1,
         "duracion": "1h 56m",   
-        "img": "https://es.web.img2.acsta.net/pictures/14/05/28/11/24/435900.jpg"
+        "img": "https://es.web.img2.acsta.net/pictures/14/05/28/11/24/435900.jpg",
+        "price": 25.00
     },
     {
         "id": 15,
@@ -147,6 +161,7 @@
         "estudio": 1,
         "director": 1,
         "duracion": "1h 51m",
-        "img": "https://cineclubccfv.home.blog/wp-content/uploads/2020/08/rata1.jpg?w=564"
+        "img": "https://cineclubccfv.home.blog/wp-content/uploads/2020/08/rata1.jpg?w=564",
+        "price": 23.99
     }
 ]

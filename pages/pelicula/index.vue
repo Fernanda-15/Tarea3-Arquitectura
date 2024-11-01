@@ -1,5 +1,7 @@
 <!-- pages/peliculas_index.vue -->
 <template>
+    <div hidden id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1"></div>
+
     <div class="container">
         <HeaderView />
         <h3 style="margin-top: 15px">Peliculas Animadas</h3>
@@ -12,7 +14,20 @@
                             <div class="card-body">
                             <h5 class="card-title">{{ pelicula.title }}</h5>
                             <p class="card-text">{{ pelicula.description }}</p>
-                            </div>
+                            <p class="card-text">${{ pelicula.price }}</p>
+                            <!-- Optional: Button for items on the main page -->
+                            <button
+                                class="snipcart-add-item btn btn-primary mt-3"
+                                :data-item-id="pelicula.title"
+                                :data-item-name="pelicula.title"
+                                :data-item-price="pelicula.price"
+                                :data-item-url="pelicula.img"
+                                :data-item-description="'Compra de ' + pelicula.title"
+                            >
+                                Añadir al carrito
+                            </button>
+                        </div>
+
                         </div>
                     </NuxtLink>
 
