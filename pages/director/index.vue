@@ -1,7 +1,5 @@
 <!-- pages/authors_index.vue -->
 <template>
-    <div hidden id="snipcart" data-api-key="$config.snipcartApiKey"></div>
-
     <div class="container">
         <HeaderView />
         <div class="row mt-4">

@@ -1,7 +1,5 @@
 <!-- pages/peliculas_index.vue -->
 <template>
-    <div hidden id="snipcart" data-api-key="$config.snipcartApiKey"></div>
-
     <div class="container">
         <HeaderView />
         <h3 style="margin-top: 15px">Peliculas Animadas</h3>

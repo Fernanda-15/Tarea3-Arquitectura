@@ -2,7 +2,7 @@
     <div class="container">
         <div class="d-flex flex-column row-gap-4">
             <HeaderView />
-
+            <div hidden id="snipcart" :data-api-key="$config.snipcartApiKey"></div>
             <div class="d-flex flex-column row-gap-2">
                 <h1>Tarea 3</h1>
                 <h3>Arquitectura de información</h3>
@@ -27,6 +27,8 @@
     </div>
 </template>
 <script setup>
+import { useRuntimeConfig } from '#app';
+const config = useRuntimeConfig();
 
 const menu = ref([
     { nombre: "Películas", image: "https://cdn.pixabay.com/photo/2019/05/19/10/40/cinema-4213751_1280.jpg", url: "/pelicula" },
