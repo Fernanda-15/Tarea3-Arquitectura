@@ -1,6 +1,6 @@
 <!-- pages/authors_index.vue -->
 <template>
-    <div hidden id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1"></div>
+    <div hidden id="snipcart" data-api-key="import.meta.env.VITE_SNIPCART_API_KEY"></div>
 
     <div class="container">
         <HeaderView />
