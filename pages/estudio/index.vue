@@ -18,7 +18,7 @@
                                 Detalles 
                         </button>
 
-                        <button
+                       <!--  <button
                                 class="snipcart-add-item btn btn-primary mt-3"
                                 :data-item-id="estudio.nombre"
                                 :data-item-name="estudio.nombre"
@@ -27,15 +27,11 @@
                                 :data-item-description="'Compra de ' + estudio.nombre"
                             >
                                 Añadir al carrito
-                        </button>
+                        </button> -->
                     </div>
 
                 </div>
             </div>
-            <!-- <NuxtLink class="col-3 text-decoration-none" :to="`/estudio/${estudio.id}`" v-for="estudio in estudios" 
-                :key="estudio.id">-->
-                
-            <!-- </NuxtLink> -->
         </div>
     </div>
 </template>

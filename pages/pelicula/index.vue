@@ -2,16 +2,11 @@
 <template>
     <div class="container">
 
-        <ClientOnly>
-            <div id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1" hidden></div>
-        </ClientOnly>
-
         <HeaderView />
         <h3 style="margin-top: 15px">Peliculas Animadas</h3>
         <p>En está sección podrá observar la lista de peliculas animadas</p>
             <div class="row">
                 <div class="col-md-4 mb-4" v-for="pelicula in peliculas" :key="pelicula.id">
-                    <!-- <NuxtLink :to="`pelicula/${pelicula.id}`" class="card-link  text-decoration-none"> -->
                         <div class="card" style="width: 18rem;">
                             <img :src="pelicula.img" class="card-img-top" alt="Pelicula" style="height: 300px; object-fit: cover;">
                             <div class="card-body">
@@ -38,7 +33,6 @@
                         </div>
 
                         </div>
-                    <!-- </NuxtLink> -->
 
                 </div>
             </div>       

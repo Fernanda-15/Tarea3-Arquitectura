@@ -17,7 +17,7 @@
                         <button @click="goToDirector(pelicula.id)" class="btn btn-primary text-decoration-none">
                                 Detalles 
                         </button>
-                        <button
+                      <!--   <button
                                 class="snipcart-add-item btn btn-primary mt-3"
                                 :data-item-id="director.nombre"
                                 :data-item-name="director.nombre"
@@ -26,14 +26,11 @@
                                 :data-item-description="'Compra de ' + director.nombre"
                             >
                                 Añadir al carrito
-                        </button>
+                        </button> -->
                     </div>
                 </div>
             </div>
-           <!--  <NuxtLink class="col-3 text-decoration-none" :to="`/director/${director.id}`" v-for="director in directores"
-                :key="director.id"> -->
-                
-            <!-- </NuxtLink> -->
+          
         </div>
         <FooterView />
     </div>

@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      snipcartApiKey: process.env.NUXT_PUBLIC_SNIPCART_API_KEY // Aquí accedemos a la variable de entorno
+      snipcartApiKey: process.env.NUXT_PUBLIC_SNIPCART_API_KEY 
     }
   }
 });
