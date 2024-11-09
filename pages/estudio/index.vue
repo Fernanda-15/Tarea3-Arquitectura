@@ -1,7 +1,6 @@
 <!-- pages/books.vue -->
 <template>
     <div class="container">
-        <div hidden id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1"></div>
         
          <HeaderView />
         <div class="row mt-4">
