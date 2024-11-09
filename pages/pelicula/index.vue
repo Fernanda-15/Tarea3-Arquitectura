@@ -1,7 +1,9 @@
 <!-- pages/peliculas_index.vue -->
 <template>
     <div class="container">
-
+        <ClientOnly>
+            <div id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1" hidden></div>
+        </ClientOnly>
         <HeaderView />
         <h3 style="margin-top: 15px">Peliculas Animadas</h3>
         <p>En está sección podrá observar la lista de peliculas animadas</p>

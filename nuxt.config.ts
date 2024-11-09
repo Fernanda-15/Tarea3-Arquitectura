@@ -27,10 +27,5 @@ export default defineNuxtConfig({
         { src: 'https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js', async: true, defer: true }
       ]
     },
-  },
-  runtimeConfig: {
-    public: {
-      snipcartApiKey: process.env.NUXT_PUBLIC_SNIPCART_API_KEY 
-    }
   }
 });

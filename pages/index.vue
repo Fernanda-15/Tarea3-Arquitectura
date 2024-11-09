@@ -2,7 +2,6 @@
     <div class="container">
         <div class="d-flex flex-column row-gap-4">
             <HeaderView />
-            <div hidden id="snipcart" :data-api-key="config.public.snipcartApiKey"></div>
             <div class="d-flex flex-column row-gap-2">
                 <h1>Tarea 3</h1>
                 <h3>Arquitectura de información</h3>

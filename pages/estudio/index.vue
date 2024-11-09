@@ -15,7 +15,7 @@
                         <p class="card-text">${{ estudio.price }} x producción completa</p>
                         
                         <button @click="goToEstudio(pelicula.id)" class="btn btn-primary text-decoration-none">
-                                Detalles 
+                            Detalles 
                         </button>
 
                        <!--  <button
