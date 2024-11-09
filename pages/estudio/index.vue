@@ -14,7 +14,7 @@
                         <h5 class="card-title">{{ estudio.nombre }}</h5>
                         <p class="card-text">${{ estudio.price }} x producción completa</p>
                         
-                        <button @click="goToPelicula(pelicula.id)" class="btn btn-primary text-decoration-none">
+                        <button @click="goToEstudio(pelicula.id)" class="btn btn-primary text-decoration-none">
                                 Detalles 
                         </button>
 
@@ -45,7 +45,7 @@ const estudios = (await queryContent('/estudio').only('body').findOne()).body;
 
 const router = useRouter();
 
-const goToPelicula = (id) => {
+const goToEstudio = (id) => {
   router.push(`/estudio/${id}`);
 };
 </script>

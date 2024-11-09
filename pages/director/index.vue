@@ -13,7 +13,10 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ director.nombre }}</h5>
                         <p class="card-text">${{ director.price }} x entrevista</p>
-                        <!-- Optional: Button for items on the main page -->
+                       
+                        <button @click="goToDirector(pelicula.id)" class="btn btn-primary text-decoration-none">
+                                Detalles 
+                        </button>
                         <button
                                 class="snipcart-add-item btn btn-primary mt-3"
                                 :data-item-id="director.nombre"
@@ -40,7 +43,7 @@ import { useRouter } from 'vue-router';
 const directores = (await queryContent('/director').only('body').findOne()).body;
 const router = useRouter();
 
-const goToPelicula = (id) => {
+const goToDirector = (id) => {
   router.push(`/pelicula/${id}`);
 };
 </script>

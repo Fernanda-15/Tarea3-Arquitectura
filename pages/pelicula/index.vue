@@ -14,20 +14,22 @@
                             <p class="card-text">{{ pelicula.description }}</p>
                             <p class="card-text">${{ pelicula.price }}</p>
                             
-                            <button @click="goToPelicula(pelicula.id)" class="btn btn-primary text-decoration-none">
-                                Detalles 
-                            </button>
+                            <div class="d-flex justify-content-between">
+                                <button @click="goToPelicula(pelicula.id)" class="btn btn-primary text-decoration-none">
+                                    Detalles 
+                                </button>
+                                <button
+                                    class="snipcart-add-item btn btn-primary"
+                                    :data-item-id="pelicula.title"
+                                    :data-item-name="pelicula.title"
+                                    :data-item-price="pelicula.price"
+                                    :data-item-url="pelicula.img"
+                                    :data-item-description="'Compra de ' + pelicula.title"
+                                >
+                                    Añadir al carrito
+                                </button>
+                            </div>
 
-                            <button
-                                class="snipcart-add-item btn btn-primary mt-3"
-                                :data-item-id="pelicula.title"
-                                :data-item-name="pelicula.title"
-                                :data-item-price="pelicula.price"
-                                :data-item-url="pelicula.img"
-                                :data-item-description="'Compra de ' + pelicula.title"
-                            >
-                                Añadir al carrito
-                            </button>
                         </div>
 
                         </div>
