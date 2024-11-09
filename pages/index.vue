@@ -1,6 +1,8 @@
 <template>
     <div class="container">
         <div class="d-flex flex-column row-gap-4">
+            <div hidden id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1"></div>
+        
             <HeaderView />
             <div class="d-flex flex-column row-gap-2">
                 <h1>Tarea 3</h1>

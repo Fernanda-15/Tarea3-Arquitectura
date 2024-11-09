@@ -1,7 +1,10 @@
 <!-- pages/authors_index.vue -->
 <template>
     <div class="container">
-        <HeaderView />
+        <div hidden id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1"></div>
+        
+         <HeaderView />
+        
         <div class="row mt-4">
             <h1>Directores</h1>
             <p>En esta sección podrá observar la lista de directores involucrados con las peliculas animadas.</p>
@@ -14,19 +17,22 @@
                         <h5 class="card-title">{{ director.nombre }}</h5>
                         <p class="card-text">${{ director.price }} x entrevista</p>
                        
-                        <button @click="goToDirector(pelicula.id)" class="btn btn-primary text-decoration-none">
-                                Detalles 
-                        </button>
-                      <!--   <button
-                                class="snipcart-add-item btn btn-primary mt-3"
-                                :data-item-id="director.nombre"
-                                :data-item-name="director.nombre"
-                                :data-item-price="director.price"
-                                :data-item-url="director.image"
-                                :data-item-description="'Compra de ' + director.nombre"
-                            >
-                                Añadir al carrito
-                        </button> -->
+                        <div class="d-flex justify-content-between">
+
+                            <button @click="goToDirector(pelicula.id)" class="btn btn-primary text-decoration-none">
+                                    Detalles 
+                            </button>
+                            <button
+                                        class="snipcart-add-item btn btn-primary mt-3"
+                                        :data-item-id="director.nombre"
+                                        :data-item-name="director.nombre"
+                                        :data-item-price="director.price"
+                                        :data-item-url="director.image"
+                                        :data-item-description="'Compra de ' + director.nombre"
+                                    >
+                                        Añadir al carrito
+                                </button> 
+                        </div>
                     </div>
                 </div>
             </div>

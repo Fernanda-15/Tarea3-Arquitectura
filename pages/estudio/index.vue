@@ -1,7 +1,9 @@
 <!-- pages/books.vue -->
 <template>
     <div class="container">
-        <HeaderView />
+        <div hidden id="snipcart" data-api-key="M2QzOWJhN2YtZTQxOC00OTViLWJmZDAtNjc0YWRlMTUzNGQ2NjM4NjYwOTAyMzE2MTA4NjY1"></div>
+        
+         <HeaderView />
         <div class="row mt-4">
             <h1>Estudios</h1>
             <p>En esta sección podrá observar la lista de estudios involucrados con las peliculas animadas.</p>
@@ -13,21 +15,22 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ estudio.nombre }}</h5>
                         <p class="card-text">${{ estudio.price }} x producción completa</p>
-                        
-                        <button @click="goToEstudio(pelicula.id)" class="btn btn-primary text-decoration-none">
-                            Detalles 
-                        </button>
+                        <div class="d-flex justify-content-between">
+                            <button @click="goToEstudio(pelicula.id)" class="btn btn-primary text-decoration-none">
+                                Detalles 
+                            </button>
 
-                       <!--  <button
-                                class="snipcart-add-item btn btn-primary mt-3"
-                                :data-item-id="estudio.nombre"
-                                :data-item-name="estudio.nombre"
-                                :data-item-price="estudio.price"
-                                :data-item-url="estudio.image"
-                                :data-item-description="'Compra de ' + estudio.nombre"
-                            >
-                                Añadir al carrito
-                        </button> -->
+                            <button
+                                    class="snipcart-add-item btn btn-primary mt-3"
+                                    :data-item-id="estudio.nombre"
+                                    :data-item-name="estudio.nombre"
+                                    :data-item-price="estudio.price"
+                                    :data-item-url="estudio.image"
+                                    :data-item-description="'Compra de ' + estudio.nombre"
+                                >
+                                    Añadir al carrito
+                            </button> 
+                        </div>
                     </div>
 
                 </div>
